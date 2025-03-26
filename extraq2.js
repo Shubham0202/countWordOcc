@@ -25,7 +25,7 @@ function countWordInFile(filePath, word) {
 }
 
 
-const filePath = path.join(__dirname, 'file2.txt'); 
+const filePath = path.join(__dirname, 'file1.txt'); 
 const wordToCount = 'hello'; 
 countWordInFile(filePath, wordToCount);
 
